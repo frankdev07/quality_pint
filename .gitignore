@@ -1,0 +1,10 @@
+# --- SEGURIDAD Y CREDENCIALES ---
+# Ignorar el archivo de variables de entorno (Contraseñas)
+.env
+
+# --- DATOS SENSIBLES DEL CLIENTE ---
+# Ignorar las bases de datos originales y archivos procesados
+data/raw/
+data/processed/
+*.dbf
+*.DBF
